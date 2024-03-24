@@ -10,7 +10,7 @@ form.addEventListener('submit', event => {
   event.preventDefault();
   gallery.innerHTML = '';
   const userQuery = input.value.trim();
-  // console.log(userQuery);
+
   if (!userQuery) {
     iziToast.show({
       title: 'Warning',

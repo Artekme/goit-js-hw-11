@@ -29,7 +29,7 @@ export function fetchImages(userQuery) {
         });
       } else {
         renderGallery(data.hits);
-        // console.log(data.hits);
+   
       }
     })
     .catch(error => {
